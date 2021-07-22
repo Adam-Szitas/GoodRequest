@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+.container{
+  position: relative;
+  width: 1440px;
+  height: 1434px;
+
+  background: #FFFFFF;
+}
+.logo_text p{
+  color: #321E0F;
+}
+p{
+  font-style: 'Public Sans';
+}
+button:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,84 @@
+
+a{
+  font-family: 'Public Sans';
+  color: #585757;
+}
+
+  .footer{
+    position: absolute;
+    width: 80%;
+    height: auto;
+    left: 10%;
+    margin-bottom: 5%;
+    bottom: 0;
+  }
+  
+  .separator{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0.31%;
+    bottom: 99.38%;
+  
+    background: rgba(47, 47, 47, 0.16);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  .info{
+    margin-top: 5%;    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .one_third{
+    width: 33.33%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;    
+  }
+  .two_third{
+    width: 66.66%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .logo_icon{
+    position: relative;
+    left: 0%;
+    right: 75.9%;
+    top: 1.76%;
+    bottom: 1.76%;
+  }
+  
+  .logo_text{
+    position: inherit;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .text_box{
+    width: 100%;
+    float: left;
+    text-align: start;
+    margin: 0px 50px;
+  }
+  .text_box > span > a{
+    display: block;
+    text-decoration: none;
+    color: #585757;
+  }
+  span.lh-200 > a {
+    line-height: 200%;
+  }
+  .text_box > span > a:hover{
+    text-decoration: underline;
+  }
+  .text_box > p{
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Public Sans';
+  }
